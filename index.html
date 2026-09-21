@@ -16,6 +16,7 @@
   .wrap { max-width:1200px; margin:0 auto; padding:20px 16px 48px; }
   header.top { display:flex; align-items:flex-start; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:14px; }
   h1 { font-size:22px; margin:0; }
+  .subtitle { color:var(--sub); font-size:15px; margin-top:2px; }
   .meta { color:var(--sub); font-size:13px; margin-top:2px; }
   button, .btn { font:inherit; border:1px solid var(--accent); background:var(--accent); color:#fff; padding:8px 16px;
     border-radius:6px; cursor:pointer; }
@@ -77,6 +78,7 @@
   <header class="top">
     <div>
       <h1>손익 대시보드</h1>
+      <div class="subtitle">2026년 상반기 기준</div>
       <div class="meta" id="fileMeta">엑셀 파일을 올리면 이 브라우저 안에서만 읽습니다. 서버로 전송되거나 저장되지 않습니다.</div>
     </div>
     <button id="btnPrint" type="button" disabled>보고서 인쇄</button>
